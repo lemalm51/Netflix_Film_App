@@ -26,14 +26,13 @@ function Header() {
                 className="me-auto my-2 my-lg-0 "
                 style={{ maxHeight: '600px' }}
                 navbarScroll>
-
-                <Nav.Link as={Link} to="#" className='Header' >Trending Now</Nav.Link>
-                <Nav.Link as={Link} to="#" className='Header'>Top Rated </Nav.Link>
-                <Nav.Link as={Link} to="#" className='Header'>Action Movies</Nav.Link>
-                <Nav.Link as={Link} to="#" className='Header'>Comedy Movies</Nav.Link>
-                <Nav.Link as={Link} to="#" className='Header'>Horror Movies</Nav.Link>
-                <Nav.Link as={Link} to="#" className='Header'>Romance Movies</Nav.Link>
-                <Nav.Link as={Link} to="#" className='Header'>TV Shows</Nav.Link>
+                <Nav.Link as={Link} to="#" className='Header'>Trending</Nav.Link>
+                <Nav.Link as={Link} to="#" className='Header' >TopRated</Nav.Link>
+                <Nav.Link as={Link} to="#" className='Header'>ActionMovie </Nav.Link>
+                <Nav.Link as={Link} to="#" className='Header'>ComedyMovie </Nav.Link>
+                <Nav.Link as={Link} to="#" className='Header'>HorrorMovie</Nav.Link>
+                <Nav.Link as={Link} to="#" className='Header'>RomanceMovie</Nav.Link>
+                <Nav.Link as={Link} to="#" className='Header'>TvShow</Nav.Link>
                 <Nav.Link as={Link} to="#" className='Header'>Documentaries</Nav.Link>
 
               </Nav>
@@ -47,7 +46,7 @@ function Header() {
 
        <section>
           <div className='container-fluid'>
-            <h1 className=''>Wel-Come To World Of Actors!!!</h1>
+            <h1 className='welcomeText'>Wel-Come To World Of Actors!</h1>
           </div>
         </section>
 

@@ -1,8 +1,8 @@
 import requests from "../../utils/requests";
 
-// import Trending from "../Row/Trending";
+import Trending from "../Row/Trending";
 import TopRated from "../Row/TopRated";
-// import Trending from "../Row/Trending";
+import ActionMovie from "../Row/ActionMovie";
 import ComedyMovie from "../Row/ComedyMovie";
 import HorrorMovie from "../Row/HorrorMovie";
 import RomanceMovie from "../Row/RomanceMovie";
@@ -17,12 +17,14 @@ const RowList = () => {
                 fetchUrl={requests.fetchNetflixOriginal} 
                 islargeRow={true}/> */}
 
-             {/* <Trending title="Trending Now" 
-             fetchUrl={requests.fetchTrending} /> */}
+             < Trending title="Trending Now" 
+             fetchUrl={requests.fetchTrending} /> 
+             
+             <ActionMovie title="ActionMovie" 
+             fetchUrl={requests.fetchActionMovies} />
+
              <TopRated title="Top Rated" 
              fetchUrl={requests.fetchTopRatedMovies} />
-            {/* < Trending title="Action Movies" 
-             fetchUrl={requests.fetchTrendings} /> */}
             
              <ComedyMovie title="Comedy Movies" 
              fetchUrl={requests.fetchComedyMovies} />

@@ -62,7 +62,7 @@ const ComedyMovie = ({ title, fetchUrl, islargeRow }) => {
 
     return (
         <div className="row">
-            <h1>{title}</h1> 
+            <h1 className="title">{title}</h1> 
             <div className="row_posters">
                 {movies?.map((movie, index) => (
                     <img
