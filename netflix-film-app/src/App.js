@@ -7,7 +7,7 @@ import "./Components/Rows/Row/row.css";
 import "./index.css"
 import requests from "./Components/utils/requests";
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
+import { BrowserRouter , Route, Routes } from 'react-router-dom'; 
 
 import Layout from './Components/Layout/Layout'; 
 
@@ -23,7 +23,7 @@ import Documentaries from './Components/Rows/Row/Documentaries';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <BrowserRouter basename="/Netflix_Film_App">
         <Routes>
           
           <Route path="/" element={<Layout />}> 
@@ -60,7 +60,7 @@ function App() {
 
           </Route>
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
