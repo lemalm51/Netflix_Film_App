@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Netflix_Film_App/static/css/main.acaeb0dc.css",
-    "main.js": "/Netflix_Film_App/static/js/main.35f651dc.js",
+    "main.js": "/Netflix_Film_App/static/js/main.c2909651.js",
     "static/media/photo.png": "/Netflix_Film_App/static/media/photo.af3e21ca1a2a7e848106.png",
     "index.html": "/Netflix_Film_App/index.html",
     "main.acaeb0dc.css.map": "/Netflix_Film_App/static/css/main.acaeb0dc.css.map",
-    "main.35f651dc.js.map": "/Netflix_Film_App/static/js/main.35f651dc.js.map"
+    "main.c2909651.js.map": "/Netflix_Film_App/static/js/main.c2909651.js.map"
   },
   "entrypoints": [
     "static/css/main.acaeb0dc.css",
-    "static/js/main.35f651dc.js"
+    "static/js/main.c2909651.js"
   ]
 }
