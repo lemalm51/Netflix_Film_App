@@ -76,7 +76,7 @@ const RomanceMovie  = ({ title, fetchUrl, islargeRow  }) => {
                 ))}
             </div>
             
-             <div style={{padding:'10px'}}> 
+             <div style={{padding:'40px'}}> 
                 {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
             </div>
 

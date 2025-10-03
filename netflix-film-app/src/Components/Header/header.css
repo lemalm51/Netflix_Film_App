@@ -1,4 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 .Header{
 color: white;
 font-weight: 500%;
+font-family: "Roboto", sans-serif;
 }
